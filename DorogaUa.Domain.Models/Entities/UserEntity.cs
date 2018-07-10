@@ -3,7 +3,7 @@ using System;
 
 namespace DorogaUa.Domain.Models.Entities
 {
-    class UserEntity
+    public class UserEntity
     {
         public string Id { get; set; }
 

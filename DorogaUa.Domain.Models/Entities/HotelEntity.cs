@@ -1,7 +1,9 @@
 ﻿namespace DorogaUa.Domain.Models.Entities
 {
-    class HotelEntity
-    {           
+    public class HotelEntity
+    {
+        public int Id { get; set; }
+
         public string Name { get; set; }
 
         public string NumberPhone { get; set; }
