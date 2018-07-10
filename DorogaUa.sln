@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DorogaUa.Domain.Services", "DorogaUa.Domain.Services\DorogaUa.Domain.Services.csproj", "{8EDCE60F-72C6-4FCA-B108-AEE8337C48CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DorogaUa.Domain.Models", "DorogaUa.Domain.Models\DorogaUa.Domain.Models.csproj", "{B1EE83F8-C8A0-41AF-9202-006EC009F3EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DorogaUa.Infrastructure", "DorogaUa.Infrastructure\DorogaUa.Infrastructure.csproj", "{7031BCFF-8988-464F-8B10-4DAE21FB36CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DorogaUa.Infrastructure.Sql", "DorogaUa.Infrastructure.Sql\DorogaUa.Infrastructure.Sql.csproj", "{47769DF5-2C3F-4030-B13F-9721E49A72D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DorogaUa.IoC", "DorogaUa.IoC\DorogaUa.IoC.csproj", "{9672F92C-878B-4472-A99B-BF7C8B0B6932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DorogaUa.API", "DorogaUa.API\DorogaUa.API.csproj", "{C73302B2-CEFF-458E-9ED9-C3E2B713C933}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EDCE60F-72C6-4FCA-B108-AEE8337C48CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDCE60F-72C6-4FCA-B108-AEE8337C48CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDCE60F-72C6-4FCA-B108-AEE8337C48CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDCE60F-72C6-4FCA-B108-AEE8337C48CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EE83F8-C8A0-41AF-9202-006EC009F3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EE83F8-C8A0-41AF-9202-006EC009F3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EE83F8-C8A0-41AF-9202-006EC009F3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EE83F8-C8A0-41AF-9202-006EC009F3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7031BCFF-8988-464F-8B10-4DAE21FB36CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7031BCFF-8988-464F-8B10-4DAE21FB36CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7031BCFF-8988-464F-8B10-4DAE21FB36CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7031BCFF-8988-464F-8B10-4DAE21FB36CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47769DF5-2C3F-4030-B13F-9721E49A72D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47769DF5-2C3F-4030-B13F-9721E49A72D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47769DF5-2C3F-4030-B13F-9721E49A72D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47769DF5-2C3F-4030-B13F-9721E49A72D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9672F92C-878B-4472-A99B-BF7C8B0B6932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9672F92C-878B-4472-A99B-BF7C8B0B6932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9672F92C-878B-4472-A99B-BF7C8B0B6932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9672F92C-878B-4472-A99B-BF7C8B0B6932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C73302B2-CEFF-458E-9ED9-C3E2B713C933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73302B2-CEFF-458E-9ED9-C3E2B713C933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73302B2-CEFF-458E-9ED9-C3E2B713C933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73302B2-CEFF-458E-9ED9-C3E2B713C933}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98424A35-DEE2-4564-9443-CFF050ABAB9B}
+	EndGlobalSection
+EndGlobal
