@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Doroga.Domain.Models.Entities
 {
-    class Article
+    public class ServiceStationEntity
     {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
     }
 }

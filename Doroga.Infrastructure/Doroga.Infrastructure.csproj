@@ -6,8 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Domain.Models\Doroga.Domain.Models.csproj" />
-    <ProjectReference Include="..\Doroga.Infrastructure\Doroga.Infrastructure.csproj" />
-    <ProjectReference Include="..\Doroga\Doroga.csproj" />
   </ItemGroup>
 
 </Project>
