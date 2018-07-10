@@ -25,6 +25,6 @@ namespace DorogaUa.Domain.Models.Entities
 
         public bool IsDeleted { get; set; }
 
-        // Need Add Address and Model of Car
+        // Need Add Address and Model of Car 
     }
 }
