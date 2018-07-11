@@ -4,7 +4,7 @@ using Doroga.Domain.Models.Entities;
 
 namespace Doroga.Domain.Services.Contracts
 {
-    interface IRestaurantService
+    public interface IRestaurantService
     {
         IEnumerable<RestaurantEntity> GetAllRestaurants();
         RestaurantEntity GetRestaurantById(string restaurantId);

@@ -3,7 +3,7 @@ using Doroga.Domain.Models.Entities;
 
 namespace Doroga.Domain.Services.Contracts
 {
-    interface IAttractionService
+    public interface IAttractionService
     {
         IEnumerable<AttractionEntity> GetAllAttractions();
         AttractionEntity GetAttractionById(string AttractionId);

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Doroga.Infrastructure.Common
+﻿namespace Doroga.Infrastructure.Common
 {
     public interface IDependencyResolver
     {
