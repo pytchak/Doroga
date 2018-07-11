@@ -6,5 +6,6 @@ namespace Doroga.Infrastructure.Sql.Repositories
 {
     class ArticleRepository
     {
+        //Todo Something
     }
 }
