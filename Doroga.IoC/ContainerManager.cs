@@ -4,7 +4,6 @@ using System.Linq;
 using Alexinea.Autofac.Extensions.DependencyInjection;
 using Doroga.Infrastructure.Common;
 using Autofac;
-using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Doroga.IoC

@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doroga", "Doroga\Doroga.csproj", "{8BC930E8-F3F7-4748-B509-08AA7E7D9EF8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doroga.Domain.Models", "Domain.Models\Doroga.Domain.Models.csproj", "{BA194C91-4A04-4D77-818F-12508A945DBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doroga.Domain.Services", "Doroga.Domain.Services\Doroga.Domain.Services.csproj", "{CF4E9D26-0AE6-4D2D-BA17-61DBD3E46DE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doroga.Domain.Services", "Doroga.Domain.Services\Doroga.Domain.Services.csproj", "{CF4E9D26-0AE6-4D2D-BA17-61DBD3E46DE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doroga.Infrastructure.Sql", "Doroga.Infrastructure.Sql\Doroga.Infrastructure.Sql.csproj", "{FDB545F5-D43E-4F27-B850-93395589DE01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doroga.Infrastructure.Sql", "Doroga.Infrastructure.Sql\Doroga.Infrastructure.Sql.csproj", "{FDB545F5-D43E-4F27-B850-93395589DE01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doroga.IoC", "Doroga.IoC\Doroga.IoC.csproj", "{6392F062-BD03-43EA-AFDD-ADB7C5D062F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doroga.IoC", "Doroga.IoC\Doroga.IoC.csproj", "{6392F062-BD03-43EA-AFDD-ADB7C5D062F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doroga.Infrastructure", "Doroga.Infrastructure\Doroga.Infrastructure.csproj", "{478CC832-B1CA-4D43-866C-9D5DD9FBC5B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doroga.Infrastructure", "Doroga.Infrastructure\Doroga.Infrastructure.csproj", "{478CC832-B1CA-4D43-866C-9D5DD9FBC5B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doroga.API", "Doroga.API\Doroga.API.csproj", "{48E0432C-B209-4927-BEB8-FA1CBD98398D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8BC930E8-F3F7-4748-B509-08AA7E7D9EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BC930E8-F3F7-4748-B509-08AA7E7D9EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BC930E8-F3F7-4748-B509-08AA7E7D9EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BC930E8-F3F7-4748-B509-08AA7E7D9EF8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BA194C91-4A04-4D77-818F-12508A945DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BA194C91-4A04-4D77-818F-12508A945DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA194C91-4A04-4D77-818F-12508A945DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{478CC832-B1CA-4D43-866C-9D5DD9FBC5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{478CC832-B1CA-4D43-866C-9D5DD9FBC5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{478CC832-B1CA-4D43-866C-9D5DD9FBC5B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E0432C-B209-4927-BEB8-FA1CBD98398D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E0432C-B209-4927-BEB8-FA1CBD98398D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E0432C-B209-4927-BEB8-FA1CBD98398D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E0432C-B209-4927-BEB8-FA1CBD98398D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
