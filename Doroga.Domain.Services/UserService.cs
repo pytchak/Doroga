@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using Doroga.Domain.Models.Entities;
-using Doroga.Domain.Services.Contracts;
+using Doroga.Domain.Entities;
+using Doroga.Domain.Contracts;
 using Doroga.Infrastructure.Common;
 using Doroga.Infrastructure;
 

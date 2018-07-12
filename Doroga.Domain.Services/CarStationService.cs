@@ -1,17 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using Doroga.Domain.Services.Contracts;
 using Doroga.Infrastructure.Common;
 using Doroga.Infrastructure;
-using Doroga.Domain.Models.Entities;
+using Doroga.Domain.Entities;
+using Doroga.Domain.Contracts;
+
 
 namespace Doroga.Domain.Services
 {
-    public class ServiceStationService : IServiceStationService
+    public class CarStationService : ICarStationService
     {
         private readonly IDependencyResolver _dependencyResolver;
 
-        public ServiceStationService(IDependencyResolver dependencyResolver)
+        public CarStationService(IDependencyResolver dependencyResolver)
         {
             _dependencyResolver = dependencyResolver;
         }

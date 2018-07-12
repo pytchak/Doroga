@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Doroga.Domain.Models.Entities
+namespace Doroga.Domain.Entities
 {
     public class ServiceStationEntity
     {

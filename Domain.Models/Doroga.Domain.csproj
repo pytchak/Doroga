@@ -2,10 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <Win32Resource />
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Doroga.Domain\Doroga.Domain.csproj" />
-  </ItemGroup>
 
 </Project>

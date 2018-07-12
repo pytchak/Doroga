@@ -1,9 +1,9 @@
 ﻿using System;
+using Doroga.Domain.Contracts;
 using System.Collections.Generic;
-using Doroga.Domain.Services.Contracts;
 using Doroga.Infrastructure.Common;
 using Doroga.Infrastructure;
-using Doroga.Domain.Models.Entities;
+using Doroga.Domain.Entities;
 
 namespace Doroga.Domain.Services
 {

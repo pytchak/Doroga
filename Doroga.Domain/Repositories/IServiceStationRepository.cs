@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Doroga.Domain.Models.Entities;
+using Doroga.Domain.Entities;
 
-namespace Doroga.Infrastructure.Repositories
+namespace Doroga.Domain.Repositories
 {
     public interface IServiceStationRepository
     {

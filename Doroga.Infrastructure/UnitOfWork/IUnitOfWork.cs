@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Doroga.Infrastructure.Repositories;
+using Doroga.Domain.Repositories;
 
 namespace Doroga.Infrastructure
 {

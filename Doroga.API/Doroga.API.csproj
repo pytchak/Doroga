@@ -16,4 +16,10 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Doroga.Domain.Services\Doroga.Domain.Services.csproj" />
+    <ProjectReference Include="..\Doroga.Domain\Doroga.Domain.csproj" />
+    <ProjectReference Include="..\Doroga.IoC\Doroga.IoC.csproj" />
+  </ItemGroup>
+
 </Project>

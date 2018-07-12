@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Doroga.Domain.Models.Entities;
+using Doroga.Domain.Entities;
 
-namespace Doroga.Infrastructure.Repositories
+namespace Doroga.Domain.Repositories
 {
     public interface IArticleRepository
     {

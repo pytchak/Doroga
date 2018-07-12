@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using Doroga.Domain.Services.Contracts;
+using Doroga.Domain.Contracts;
 using Doroga.Infrastructure.Common;
 using Doroga.Infrastructure;
-using Doroga.Domain.Models.Entities;
+using Doroga.Domain.Entities;
 
-namespace Doroga.Domain.Services.Contracts
+namespace Doroga.Domain.Services
 {
-    public class HotelService:IHotelService
+    public class HotelService : IHotelService
     {
 
         private readonly IDependencyResolver _dependencyResolver;

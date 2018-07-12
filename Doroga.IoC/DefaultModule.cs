@@ -1,9 +1,9 @@
 ﻿using Autofac;
 using Doroga.Domain.Services;
-using Doroga.Domain.Services.Contracts;
+using Doroga.Domain.Contracts;
 using Doroga.Infrastructure;
 using Doroga.Infrastructure.Common;
-using Doroga.Infrastructure.Repositories;
+using Doroga.Domain.Repositories;
 
 namespace Doroga.IoC
 {
@@ -22,7 +22,7 @@ namespace Doroga.IoC
 
             // Register domain services.
             builder.RegisterType<UserService>().As<IUserService>();
-            builder.RegisterType<ServiceStationService>().As<IServiceStationRepository>();
+            builder.RegisterType<CarStationService>().As<IServiceStationRepository>();
             builder.RegisterType<ReportService>().As<IReportService>();
             builder.RegisterType<RestaurantService>().As<IRestaurantService>();
             builder.RegisterType<HotelService>().As<IHotelService>();

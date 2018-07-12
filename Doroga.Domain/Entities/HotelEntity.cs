@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Doroga.Domain.Models.Entities
+namespace Doroga.Domain.Entities
 {
-    public class AttractionEntity
+    public class HotelEntity
     {
         public int Id { get; set; }
 
         public string Name { get; set; }
-
-        public string Description { get; set; }
 
         public string NumberPhone { get; set; }
 
@@ -18,10 +16,12 @@ namespace Doroga.Domain.Models.Entities
 
         public string CoordinateE { get; set; }
 
-        public string Link { get; set; }
-
         public double Rating { get; set; }
 
-        // Need Add Reviews, Schedule and Address
+        public string Link { get; set; }
+
+        public int Price { get; set; }
+       
+        // Need Add Reviews and Address
     }
 }

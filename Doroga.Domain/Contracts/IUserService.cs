@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Doroga.Domain.Models.Entities;
+using Doroga.Domain.Entities;
 
-namespace Doroga.Domain.Services.Contracts
+namespace Doroga.Domain.Contracts
 {
     public interface IUserService
     {

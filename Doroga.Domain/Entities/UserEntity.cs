@@ -1,7 +1,7 @@
 ﻿using System;
-using Doroga.Domain.Models.Enums;
+using Doroga.Domain.Enums;
 
-namespace Doroga.Domain.Models.Entities
+namespace Doroga.Domain.Entities
 {
     public class UserEntity
     {
