@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Alexinea.Autofac.Extensions.DependencyInjection;
 using Doroga.Infrastructure.Common;
 using Autofac;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,6 +15,7 @@ namespace Doroga.IoC
         {
             return _container.Resolve<T>();
         }
+       
 
         public T Resolve<T>(IEnumerable<Tuple<string, object>> @params)
         {
