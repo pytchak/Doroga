@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Doroga.Infrastructure.Common;
 using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Doroga.IoC
