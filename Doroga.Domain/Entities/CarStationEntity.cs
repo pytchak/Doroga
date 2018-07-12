@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Doroga.Domain.Entities
 {
-    public class ServiceStationEntity
+    public class CarStationEntity
     {
         public int Id { get; set; }
 

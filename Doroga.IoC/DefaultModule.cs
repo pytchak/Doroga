@@ -22,7 +22,7 @@ namespace Doroga.IoC
 
             // Register domain services.
             builder.RegisterType<UserService>().As<IUserService>();
-            builder.RegisterType<CarStationService>().As<IServiceStationRepository>();
+            builder.RegisterType<CarStationService>().As<ICarStationRepository>();
             builder.RegisterType<ReportService>().As<IReportService>();
             builder.RegisterType<RestaurantService>().As<IRestaurantService>();
             builder.RegisterType<HotelService>().As<IHotelService>();

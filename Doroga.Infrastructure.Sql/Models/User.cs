@@ -8,13 +8,13 @@ namespace Doroga.Infrastructure.Sql.Models
 
         public string Login { get; set; }
 
-        public string Name { get; set; }
+        public string Name { get; set; } // First + Lasn name
 
         public string Email { get; set; }
 
         public DateTimeOffset? Birthday { get; set; }
 
-        public string Comment { get; set; }
+        public string Comment { get; set; } // Signature
 
         public bool IsDeleted { get; set; }
 

@@ -11,7 +11,7 @@ namespace Doroga.Infrastructure
         IAttractionRepository AttractionRepository { get; }
         IReportRepository ReportRepository { get; }
         IRestaurantRepository RestaurantRepository { get; }
-        IServiceStationRepository ServiceStationRepository { get; }
+        ICarStationRepository ServiceStationRepository { get; }
         void SaveChanges();
     }
 }

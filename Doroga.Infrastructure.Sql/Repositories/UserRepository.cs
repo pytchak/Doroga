@@ -1,10 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using Doroga.Domain.Repositories;
+
 
 namespace Doroga.Infrastructure.Sql.Repositories
 {
-    class UserRepository
+    public class UserRepository : IUserRepository
     {
+        //IEnumerable<User> GetAll();
+        //T GetById(string id);
+        //void Create(T entity);
+        //void Update(T entity);
+        //void Delete(int id);
+        //void Save();
     }
 }

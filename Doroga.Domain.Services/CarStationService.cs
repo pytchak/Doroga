@@ -17,7 +17,7 @@ namespace Doroga.Domain.Services
             _dependencyResolver = dependencyResolver;
         }
 
-        public IEnumerable<ServiceStationEntity> GetAllServiceStations()
+        public IEnumerable<CarStationEntity> GetAllServiceStations()
         {
             using (var unitOfWork = _dependencyResolver.Resolve<IUnitOfWork>())
             {
@@ -25,7 +25,7 @@ namespace Doroga.Domain.Services
             }
         }
 
-        public ServiceStationEntity GetServiceStationById(string serviceStationId)
+        public CarStationEntity GetServiceStationById(string serviceStationId)
         {
             using (var unitOfWork = _dependencyResolver.Resolve<IUnitOfWork>())
             {
@@ -33,7 +33,7 @@ namespace Doroga.Domain.Services
             }
         }
 
-        public void CreateServiceStation(ServiceStationEntity serviceStation, string currentServiceStationId)
+        public void CreateServiceStation(CarStationEntity serviceStation, string currentServiceStationId)
         {
             if (serviceStation == null)
             {
@@ -53,7 +53,7 @@ namespace Doroga.Domain.Services
             }
         }
 
-        public void UpdateServiceStation(ServiceStationEntity serviceStation, string currentServiceStationId)
+        public void UpdateServiceStation(CarStationEntity serviceStation, string currentServiceStationId)
         {
 
             if (serviceStation == null)

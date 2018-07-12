@@ -3,9 +3,9 @@ using Doroga.Domain.Entities;
 
 namespace Doroga.Domain.Repositories
 {
-    public interface IUserRepository
+    public interface IUserRepository : IGenericRepository<UserEntity>
     {
-        IEnumerable<UserEntity> GetAllUsers();
-        UserEntity GetUserById(string id);
+
     }
 }
+
